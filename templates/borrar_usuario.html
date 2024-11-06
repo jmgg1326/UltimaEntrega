@@ -1,0 +1,19 @@
+<!-- templates/borrar_usuario.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Borrar Usuario</title>
+</head>
+<body>
+    <h1>Borrar un usuario</h1>
+    <form action="{{ url_for('borrar_usuario') }}" method="post">
+        <div>
+            <label for="cedula">Cédula del usuario a borrar:</label>
+            <input type="text" id="cedula" name="cedula" required>
+        </div>
+        <div>
+            <button type="submit">Borrar</button>
+        </div>
+    </form>
+</body>
+</html>

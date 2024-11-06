@@ -1,0 +1,17 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú de Operaciones de Usuarios</title>
+</head>
+<body>
+    <h1>Menú de Operaciones de Usuarios</h1>
+    <ul>
+        <li><a href="{{ url_for('crear_tabla') }}">Crear tabla de usuarios</a></li>
+        <li><a href="{{ url_for('insertar_usuario') }}">Insertar un nuevo usuario</a></li>
+        <li><a href="{{ url_for('actualizar_usuario') }}">Actualizar un usuario existente</a></li>
+        <li><a href="{{ url_for('borrar_usuario') }}">Borrar un usuario</a></li>
+        <li><a href="{{ url_for('buscar_usuario') }}">Buscar usuario por cédula</a></li>
+    </ul>
+</body>
+</html>

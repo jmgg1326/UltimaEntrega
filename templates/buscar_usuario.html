@@ -1,0 +1,19 @@
+<!-- templates/buscar_usuario.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buscar Usuario</title>
+</head>
+<body>
+    <h1>Buscar un usuario por cédula</h1>
+    <form action="{{ url_for('buscar_usuario') }}" method="post">
+        <div>
+            <label for="cedula">Cédula del usuario:</label>
+            <input type="text" id="cedula" name="cedula" required>
+        </div>
+        <div>
+            <button type="submit">Buscar</button>
+        </div>
+    </form>
+</body>
+</html>
