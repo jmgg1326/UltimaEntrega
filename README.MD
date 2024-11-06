@@ -31,8 +31,6 @@ En caso de obtener algún dato incorrecto por parte del usuario se hará manejo 
 
 
 ## cómo puedo configurar el SecretConfig-sample.py?
-### Datos secretos que no deben publicarse en el repositorio
-
 Diligencie estos datos y guarde este archivo como SecretConfig.py en la carpeta src
 para poder ejecutar la aplicación
 
